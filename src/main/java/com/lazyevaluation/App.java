@@ -6,16 +6,6 @@ import java.util.List;
 
 public class App {
 
-    // public static void main(String[] args) {
-    // QueueExecutions executions = new QueueExecutions();
-    // executions.enqueue(() -> System.out.println("Función 1 ejecutada"));
-    // executions.enqueue(() -> System.out.println("Función 2 ejecutada"));
-    // executions.enqueue(() -> System.out.println("Función 3 ejecutada"));
-
-    // // Desencolar y ejecutar las funciones
-    // executions.dequeueAll();
-    // }
-
     public static void main(String[] args) {
         DataSet ds = new DataSet(new Schema(List.of("nombre", "edad")));
 
